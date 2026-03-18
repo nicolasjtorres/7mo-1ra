@@ -51,3 +51,19 @@ main{
  width: 100%;
  background-color: beige;
 }
+.stadd{
+    height: 280px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(191, 250 , 13);
+    .persona{
+        height: 100%;
+        width: 30%;
+    }
+    .foto{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: blue;
+    }
+}
