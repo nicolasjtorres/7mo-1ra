@@ -42,7 +42,43 @@ main{
 
     height: 80%;
     width: 10%;
-    background-color: orange;
+    background-color: lightgreen;
+    border: solid 3px black;
+    
+}
+
+.producto2{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+    height: 80%;
+    width: 10%;
+    background-color: salmon;
+    border: solid 3px black;
+    
+}
+
+.producto3{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+    height: 80%;
+    width: 10%;
+    background-color: pink;
+    border: solid 3px black;
+    
+}
+
+.producto4{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+
+    height: 80%;
+    width: 10%;
+    background-color: lightblue;
     border: solid 3px black;
     
 }
