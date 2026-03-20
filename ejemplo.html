@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="styleesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+
+            padding: 3em;
+
+            background-color: black;
+
+        }
+
+        .contenedorPadre {
+            margin: auto;
+            height: 80%;
+            width: 80%;
+            background: linear-gradient(45deg, steelblue, yellow, tomato);
+            border-radius: 3em;
+
+            position: relative;
+        }
+
+        .contHijo {
+            position: absolute;
+            top: 50px;
+            left: 50px
+        }
+
+        .hijoTexto {
+           
+            position: absolute;
+            width: 60%;
+            bottom: 50px;
+            right: 50px;
+        }
+
+        .fs20 {
+            font-size: 40px;
+            ;
+        }
+        .papiRelative{
+            position:relative;
+        }
+
+        .simbolo1{
+            z-index:0;
+            position:absolute;
+            top:-20px; left:-20px;
+        }
+         .simbolo2{
+            position:absolute;
+            bottom:-20px; right:-20px;
+        }
+
+        .z-1{z-index:2;
+        position:relative;;
+    font-size:20px;color:white;}
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="contenedorPadre">
+        <div class="contHijo">
+            <h2>NUESTRA FILOSOFIA</h2>
+        </div>
+        <div class="hijoTexto">
+            <div class="papiRelative">
+            <p class="z-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo reiciendis expedita reprehenderit voluptatem? Illum, autem fuga magnam impedit a, ducimus vitae explicabo ipsum ullam, omnis debitis suscipit iure adipisci.</p>
+
+            <div class="simbolo1 fs20">🎈</div>
+            <div class="simbolo2 fs20">🎃</div>
+            </div>
+        </div>
+</body>
+
+</html>
